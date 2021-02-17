@@ -6,7 +6,13 @@
 html{
     box-sizing: inherit;
     font-size: 62.5%;
-    font-family: 'Noto Sans JP','Comic Sans MS';
+    font-family: 'Comic Sans MS','Noto Sans JP';
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
 }
 
 .navbar{
@@ -131,8 +137,8 @@ html{
     padding-top: 15rem;
     position: relative;
     .profile-img{
-        box-shadow: -14px -14px 27px #d0d0d0,
-        14px 14px 27px #fff;
+        // box-shadow: -14px -14px 27px #d0d0d0,
+        // 14px 14px 27px #fff;
         width: 15rem;
         height: 15rem;
         border-radius: 50%;
